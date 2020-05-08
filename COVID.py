@@ -28,6 +28,4 @@ def get_county_COVID_df(county):
 
 def count_dead(df):
     # counts the number of dead
-    deaths = df['Death Count'].sum()
-    deaths = int(deaths)
-    return deaths
+    dead_df = gov_df.filter(['?'])
